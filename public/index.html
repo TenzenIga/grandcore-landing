@@ -64,19 +64,19 @@
 <div class="slider pb-5">
    <div class="row d-flex flex-wrap">
 
-<div class="col-4 thumb">
+<div class="col-4 thumb ">
 <a class="screenshot" data-fancybox="gallery" href="index-0.jpg">
 <img src="index-0.jpg" alt="GrandCore"/></a></div>
 
-<div class="col-4 thumb">
+<div class="col-4 thumb ">
 <a class="screenshot" data-fancybox="gallery" href="index-00.jpg">
 <img src="index-00.jpg" alt="GrandCore"/></a></div>
 
-<div class="col-4 thumb">
+<div class="col-4 thumb ">
 <a class="screenshot" data-fancybox="gallery" href="index-01.png">
 <img src="index-01.png" alt="GrandCore"/></a></div>
 
-<div class="col-4 thumb">
+<div class="col-4 thumb mt-3">
 <a class="screenshot" data-fancybox="gallery" href="index-02.jpg">
 <img src="index-02.jpg" alt="GrandCore"/></a></div>    
 </div> 
@@ -110,28 +110,83 @@
 
 <div class="row">
     <div class="col-12 d-flex flex-wrap pb-5">
-<div>
-    <a target="_blank" href="https://trello.com/b/6niwvQ5a/grandcore-tasks" class="p-2 mr-2 mb-2  text-white bg-dark">Задачи Trello</a>
-</div>
-<div>
+
+    <a target="_blank" href="https://trello.com/b/6niwvQ5a/grandcore-tasks"  class="p-2 mr-2 mb-2  text-white bg-dark">Задачи Trello</a>
+
+
     <a target="_blank" href="https://github.com/grandcore" class="p-2 mr-2 mb-2 text-white bg-dark">Код GitHub</a>
-</div>
-<div>
+
+
     <a target="_blank" href="https://www.figma.com/file/NlikNEJQHliYlxI3MHhiSW/Share?node-id=0%3A1" class="p-2 mr-2 mb-2 text-white bg-dark">Дизайн Figma</a>
-</div>
-<div>
-    <a target="_blank" href="http://grandcore.testwork.icu/" class="p-2 mb-2 text-white bg-danger"><b>Живое Демо</b></a>
-</div>
+
+    <a target="_blank" href="http://grandcore.testwork.icu/" class="p-2 mb-2 text-white bg-danger">Живое Демо</a>
     </div>
        
 </div>
 
+<div class="join-buttons">
+    <div class="join-buttons__item" data-toggle="modal" data-target="#joinModal" >
+     <button>Стать сооснователем</button>
+     <p>Программисты, дизайнеры, 
+         проджект-менеджеры, маркетороги</p>
+    </div>
+    <div class="join-buttons__item" data-toggle="modal" data-target="#sponsorModal"  >
+     <button>Пожертвовать на развитие</button>
+     <p>Деньги пойдут на продвижение
+         и оплату серверов (см. отчет)   </p>
+    </div>
+</div>
 
+<!-- стать сооснователем -->
+<div class="modal fade" id="joinModal" tabindex="-1" role="dialog" aria-labelledby="joinModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="joinModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae saepe adipisci magni ex aperiam? Porro, fugit fuga? Suscipit vero non similique quasi officiis magnam. Consequuntur aperiam officiis asperiores! Odit, facilis!
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Стать спонсором -->
+<div class="modal fade" id="sponsorModal" tabindex="-1" role="dialog" aria-labelledby="sponsorModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="sponsorModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae saepe adipisci magni ex aperiam? Porro, fugit fuga? Suscipit vero non similique quasi officiis magnam. Consequuntur aperiam officiis asperiores! Odit, facilis!
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <div class="row">
 <div class="col-12">
     <h2>(Под)пишите(сь)</h2>
 <p>
- <a target="_blank" href="https://www.youtube.com/channel/UCCcI0eNBhfd0qHIzZLDvKVA">YouTube канал</a>,
+ <a target="_blank" href="https://www.youtube.com/channel/UCCcI0eNBhfd0qHIzZLDvKVA" class="">YouTube канал</a>,
  <a target="_blank" href="https://t.me/grandcore_news">Telegram канал</a>, 
  <a target="_blank" href="https://t.me/grandcore_chat">Telegram чат</a>, 
  <a target="_blank" href="mailto:ru@grandcore.org">E-mail</a>, 
@@ -184,7 +239,7 @@
  </main>
 
 
-<footer class="page-footer font-small teal pt-4 bg-dark text-light">
+<footer class="page-footer font-small teal pt-4 bg-dark text-light ">
             <!-- Footer Text -->
             <div class="container-fluid text-center text-md-left">
                 <!-- Grid row -->
@@ -277,6 +332,8 @@ $(".nav-item-login").click(() => {
             $(".create-invite").click(() => {
                 $("#createInviteModal").modal("show");
             });
+
+
 </script>
 
 </body>
